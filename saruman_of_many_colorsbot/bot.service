@@ -1,0 +1,8 @@
+[Unit]
+Description=bot
+After=default.target
+[Service]
+User=admin
+ExecStart=/home/SANITIZED/Documents/tmux-bot.sh
+[Install]
+WantedBy=default.target
